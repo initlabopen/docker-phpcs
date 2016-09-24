@@ -1,5 +1,5 @@
-FROM denisura/composer
-MAINTAINER Denis Uraganov <github@uraganov.net>
+FROM initlab/composer
+MAINTAINER Roman Agabekov <r.agabekov@gmail.com>
 
 RUN echo "phar.readonly = 0" >> /usr/local/etc/php/php.ini
 
