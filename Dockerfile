@@ -13,6 +13,5 @@ RUN mv phpcs.phar   /usr/local/bin/phpcs
 RUN rm -rf php_codesniffer
 RUN rm -rf /usr/local/bin/composer
 
-ENTRYPOINT [""]
 CMD ["phpcbf"]
 CMD ["phpcs"]
